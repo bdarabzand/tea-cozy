@@ -93,3 +93,40 @@ justify-content: center;
 
 /* location section */
 
+.container{
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../images/img-locations-background001.jpg);
+    color: white;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+   .column {
+    color: white;
+    justify-content: space-around;
+}
+
+.joo{
+    width: 300px;
+    height: auto;
+    background-color: black;
+}
+
+
+@media screen and (min-width: 800px) {
+    .column {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    ._25 {
+        flex: 2.5;
+
+    }
